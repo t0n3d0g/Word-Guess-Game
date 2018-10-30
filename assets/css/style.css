@@ -1,0 +1,104 @@
+<style>
+  
+h2 {
+  size:large;
+}
+
+h3 {
+  color: blue;
+}
+#bg {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    overflow:hidden;
+    z-index:0;
+}
+#bg img {
+    width:100%;
+    min-width:100%;
+    min-height:100%;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: red;
+}
+
+
+#display {
+    margin-top: 78px;
+    height: 500px;
+    width: 220px;
+    margin-left: 60px;
+  }
+
+  #mylives{
+    font-size:1.6em;
+    text-align:center;
+    display:block;
+  }
+  
+
+  #buttons {
+    padding-top: 60px;
+  }
+
+  .letter {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+  .letter-button-color {
+    color: blue;
+  }
+
+  .letter-chosen {
+      color: grey;
+      text-decoration: line-through;
+  }
+
+  .board-color {
+    color: black;
+  }
+
+  #display {
+    margin-top: 78px;
+    height: 500px;
+    width: 220px;
+    margin-left: 60px;
+  }
+
+  #buttons {
+    padding-top: 60px;
+  }
+
+  #clear {
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+    border-style: solid;
+    width: 100px;
+  }
+  .background {
+    width:100%; height:592px;
+    background: url(https://image.ibb.co/fuCTxf/jose-antonio-gallego-vazquez-431522-unsplash.jpg);
+    background-position: center top;
+    padding-top:200px;
+    z-index: -1;
+  }
+</style>
