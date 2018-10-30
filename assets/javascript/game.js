@@ -47,8 +47,9 @@ document.onkeyup = function(event) {
         //   When User's guess matches the Computer's guess, User Wins!!!
         console.log("You won!");
         alert("You won!")
+        wins++;
         // Reports the win to HTML
-        document.getElementById("wins").innerHTML = "Wins: " + wins++;
+        document.getElementById("wins").innerHTML = "Wins: " + wins;
         // Resets discardedLetters array
         discardLetters = [];
         // Resets HTML Letter Used div
